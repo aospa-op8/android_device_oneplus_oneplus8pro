@@ -16,6 +16,33 @@ vendor/lib64/camera/com.qti.tuned.semco_imx689.bin
 vendor/lib64/camera/com.qti.tuned.semco_s5k3m5.bin
 vendor/lib64/camera/com.qti.tuned.shine_gc5035.bin
 
+# Display (Pixelworks)
+vendor/etc/inparm/iris5/inParm10.txt
+vendor/etc/inparm/iris5/inParm11.txt
+vendor/etc/inparm/iris5/inParm12.txt
+vendor/etc/inparm/iris5/inParm13.txt
+vendor/etc/inparm/iris5/inParm14.txt
+vendor/etc/inparm/iris5/inParm15.txt
+vendor/etc/inparm/iris5/inParm16.txt
+vendor/etc/inparm/iris5/inParm17.txt
+vendor/etc/inparm/iris5/inParm18.txt
+vendor/etc/inparm/iris5/inParm1.txt
+vendor/etc/inparm/iris5/inParm2.txt
+vendor/etc/inparm/iris5/inParm3.txt
+vendor/etc/inparm/iris5/inParm4.txt
+vendor/etc/inparm/iris5/inParm5.txt
+vendor/etc/inparm/iris5/inParm6.txt
+vendor/etc/inparm/iris5/inParm7.txt
+vendor/etc/inparm/iris5/inParm8.txt
+vendor/etc/inparm/iris5/inParm9.txt
+vendor/etc/inparm/irissoft/inParm7.txt
+vendor/etc/inparm/irissoft/inParm8.txt
+vendor/etc/inparm/irissoft/inParm9.txt
+vendor/etc/irissoft.fw
+vendor/firmware/iris5_ccf1.fw
+vendor/firmware/iris5_ccf2.fw
+vendor/firmware/iris5.fw
+
 # Fingerprint
 vendor/lib64/hw/goodix.fod.kona.so
 vendor/lib64/hw/goodix.g6.fod.kona.so
