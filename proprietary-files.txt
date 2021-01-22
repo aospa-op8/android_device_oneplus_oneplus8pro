@@ -17,6 +17,7 @@ vendor/lib64/camera/com.qti.tuned.semco_s5k3m5.bin
 vendor/lib64/camera/com.qti.tuned.shine_gc5035.bin
 
 # Display (Pixelworks)
+vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
 vendor/etc/inparm/iris5/inParm10.txt
 vendor/etc/inparm/iris5/inParm11.txt
 vendor/etc/inparm/iris5/inParm12.txt
