@@ -17,7 +17,8 @@ $(call inherit-product, device/oneplus/oneplus8/device.mk)
 
 # Init
 PRODUCT_PACKAGES += \
-    init.oneplus8pro.fingerprint.rc
+    init.oneplus8pro.fingerprint.rc \
+    wlchgd.rc
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \

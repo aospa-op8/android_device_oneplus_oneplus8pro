@@ -12,19 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/oneplus/oneplus8/BoardConfig.mk
+on init
+    chmod 0664 /dev/wlchg
+    chown system system /dev/wlchg
 
-VARIANT_PATH := device/oneplus/oneplus8pro
+on charger
+    start wlchgd
 
-# Display
-TARGET_SCREEN_DENSITY := 560
+on boot
+    start wlchgd
 
-# OTA
-TARGET_OTA_ASSERT_DEVICE := OnePlus8Pro,oneplus8pro
-
-# Properties
-TARGET_SYSTEM_PROP += device/oneplus/oneplus8/system.prop
-
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += \
-    $(VARIANT_PATH)/sepolicy/vendor
+service wlchgd /vendor/bin/wlchgd
+    class main
+    disabled
+    seclabel u:r:wlchgd:s0
+    group root system

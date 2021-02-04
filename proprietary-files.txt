@@ -44,6 +44,9 @@ vendor/lib64/camera/com.qti.tuned.truly_imx471.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 
+# Charging
+vendor/bin/wlchgd
+
 # Fingerprint
 vendor/lib64/hw/goodix.fod.kona.so
 vendor/lib64/hw/goodix.g6.fod.kona.so

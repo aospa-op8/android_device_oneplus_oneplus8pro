@@ -1,0 +1,2 @@
+# Charging
+type wlchg_device, dev_type;
